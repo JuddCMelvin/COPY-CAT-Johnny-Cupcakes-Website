@@ -111,7 +111,25 @@ img {
 }
 .fun-facts {
     height: 95vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
     width: 100%; 
     background-color: turquoise;
     margin: 12vh 0;  
+    text-align: center; ;
+}
+.fun-facts div {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%; 
+    margin: 10vh auto; 
+}
+.fun-facts img {
+    width: 400px; 
+    height: 400px; 
+}
+.fun-facts h3 {
+    margin-top: 10vh; 
 }
